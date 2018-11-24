@@ -14,7 +14,7 @@ console.log(tra);
 // bitcoin.createNewBlock(1232314,'hesdfasadmndftcoolbo','sdfyesasdheissocooldude233');
 // bitcoin.createNewBlock(1231234,'heasagfhfsfdmntcoolbo','fdgfyesasdheissocooldude233');
 // console.log(bitcoin);
-// const previousBlockHash='SDFSDSDAS98SDFBSDHFBSD';
+const previousBlockHash='SDFSDSDAS98SDFBSDHFBSD';
 const currentBlockData=[{
     amount:500,
     sender:'sender1',
@@ -29,8 +29,8 @@ const currentBlockData=[{
         sender:'sender1',
         to:'sender12'
     }]
-// console.log(bitcoin.hashBlock(previousBlockHash,currentBlockData,'52631'));
-// console.log(JSON.stringify(currentBlockData))
+console.log(bitcoin.hashBlock(previousBlockHash,currentBlockData,'52631'));
+console.log(JSON.stringify(currentBlockData))
 // console.log(bitcoin.proofOfWork(previousBlockHash,currentBlockData));
 // console.log(bitcoin);
 // console.log(bitcoin.getLastBlock());
