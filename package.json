@@ -1,0 +1,28 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run node_1 \n npm run node_2 \n npm run node_3 \n npm run_node4 \n npm run node_5",
+    "node_1": "forever start dev/networkNode.js 3001 http://localhost:3001",
+    "node_2": "forever start dev/networkNode.js 3002 http://localhost:3002",
+    "node_3": "forever start dev/networkNode.js 3003 http://localhost:3003",
+    "node_4": "forever start dev/networkNode.js 3004 http://localhost:3004",
+    "node_5": "forever start dev/networkNode.js 3005 http://localhost:3005"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "Hemant Negi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  }
+}
